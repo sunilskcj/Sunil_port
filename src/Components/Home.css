@@ -1,0 +1,153 @@
+*{
+    text-align: center;
+    color: #FAFAFA;
+
+}
+
+h1{
+    font-size: 60px;
+}
+
+p{
+    font-size: 26px;
+}
+
+
+#hero{
+    color: #5C62EC; 
+}
+
+
+
+#btn{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cv{
+  
+    background-image: -webkit-linear-gradient(top, #ffffff, #ffffff);
+    background-image: -moz-linear-gradient(top,  #ffffff, #ffffff);
+    background-image: -ms-linear-gradient(top,  #ffffff, #ffffff);
+    background-image: -o-linear-gradient(top,  #ffffff, #ffffff);
+    background-image: linear-gradient(to bottom,  #ffffff, #ffffff);
+    -webkit-border-radius: 6;
+    -moz-border-radius: 6;
+    border-radius: 6px;
+    font-family: Arial;
+    color: #000000;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border: 6px #5C62EC ;
+  
+    
+}
+.talk{
+
+    background: #5C62EC;
+    background-image: -webkit-linear-gradient(top, #5C62EC, #4d52ba);
+    background-image: -moz-linear-gradient(top, #5C62EC, #4d52ba);
+    background-image: -ms-linear-gradient(top, #5C62EC, #4d52ba);
+    background-image: -o-linear-gradient(top, #5C62EC, #4d52ba);
+    background-image: linear-gradient(to bottom, #5C62EC, #4d52ba);
+    -webkit-border-radius: 6;
+    -moz-border-radius: 6;
+    border-radius: 6px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border: none;
+}
+
+.talk:hover{
+    background: #4d52ba;
+    background-image: -webkit-linear-gradient(top, #4d52ba, #5C62EC);
+    background-image: -moz-linear-gradient(top, #4d52ba, #5C62EC);
+    background-image: -ms-linear-gradient(top, #4d52ba, #5C62EC);
+    background-image: -o-linear-gradient(top, #4d52ba, #5C62EC);
+    background-image: linear-gradient(to bottom, #4d52ba, #5C62EC);
+    text-decoration: none;
+    border: none;
+}
+
+.h_con{
+    margin: auto;
+    width: 50%;
+    padding-top: 150px;
+
+    height: 70vh;
+}
+
+.h_con1{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    height: 70vh;
+
+
+
+   
+}
+
+.about{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 24px;
+
+
+width: 60vw;
+height: 50vh;
+
+
+/* Rellenos */
+
+background: #1C1E22;
+/* Bordes */
+
+border: 1.5px solid #26292D;
+box-sizing: border-box;
+border-radius: 8px;
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 0px;
+display: flex;
+align-items: center;
+
+
+}
+
+
+
+.about_text{
+    text-align: center;
+  
+}
+
+
+
+
+.vj{
+    width: 500px;
+    height: auto;
+}
+
+
+@media screen and (max-width: 600px){
+   .Heroo , #hero{
+       font-size: 16px!important;
+   }
+  
+   #hero_0{
+    font-size: 12px!important;
+   }
+   
+}

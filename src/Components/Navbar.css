@@ -1,0 +1,18 @@
+a{
+    color: #FAFAFA !important;
+    text-decoration: none;
+}
+#paper{
+    width: 80%;
+    margin: auto;
+}
+
+.img_h{
+    width: 45px;
+}
+
+@media screen and (max-width: 600px){
+    .img_h{
+        width: 35px;
+    }
+}

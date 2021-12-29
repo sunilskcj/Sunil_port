@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@700&family=Ubuntu:wght@300&display=swap');
+
+.App {
+  text-align: center;
+  width: fit-content;
+}
+
+*{
+  font-family: 'Ubuntu', 'Ubuntu Mono', monospace, sans-serif;
+}
+
+.Foot{
+
+  
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+
+.foot_text {
+  font-size:18px;
+}
+
+#soc{
+  padding : 5px;
+}
+
+.solid{
+  border-top: 1px solid #bbb;
+  border-radius: 5px;
+}
+.img_c {
+  margin-top: 8px;
+  height: 25px;
+  }
+
+@media screen and (max-width: 600px){
+  .img_h {
+      width: 35px;
+  }
+  .img_c {
+    height: 20px;
+}
+}

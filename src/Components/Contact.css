@@ -1,0 +1,63 @@
+.contact_con{
+    /* Auto Layout */
+  
+   padding-top: 10px;
+    justify-content: center;
+ 
+    
+width: 40vw;
+margin: auto;
+height: 55vh;
+
+
+
+
+
+/* Bordes */
+
+background: #26292D;
+border-radius: 8px;
+
+/* Inside Auto Layout */
+
+
+}
+
+
+.checker{
+    display: none;
+}
+
+input{
+    margin: 10px;
+    background: #1C1E22;
+/* Gris */
+
+border: 1px solid #A0A0A1;
+box-sizing: border-box;
+border-radius: 8px;
+width: 35vw;
+height: 60px;
+}
+
+textarea{
+    margin: 10px;
+    width: 35vw;
+    background: #1C1E22;
+/* Gris */
+
+border: 1px solid #A0A0A1;
+box-sizing: border-box;
+border-radius: 8px;
+}
+
+@media screen and (max-width: 600px){
+    .contact_con{
+        width: 70vw;
+margin: auto;
+height: 45vh;
+    }
+    input , textarea{
+        width: 50vw;
+    }
+}
