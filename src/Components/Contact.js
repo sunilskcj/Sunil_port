@@ -34,7 +34,10 @@ const handleSubmit = (e) =>{
         $('.checker').show()
        
        };
-    })
+    }).catch(function(error){
+        console.log(error);
+   
+    });
     
 }
 

@@ -107,7 +107,11 @@ h2{
             height: 26px;
         }
         #paper{
+            width: 95%;
             margin : auto;
+            
+        }
+        .h_con{
             width: 95%;
         }
       }
